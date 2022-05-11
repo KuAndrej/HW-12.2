@@ -439,3 +439,27 @@ INFO:werkzeug:127.0.0.1 - - [06/May/2022 14:54:38] "[35m[1mNone /post_uploaded
 INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
 INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [06/May/2022 15:01:22] "[33mGET /post%20method=?picture=123.PNG&content=rrr HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:17] "[33mGET /post%20method=?picture=123.PNG&content=rrr HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:19] "[33mGET /post%20method=?picture=123.PNG&content=rrr HTTP/1.1[0m" 404 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:27] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:35] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:36] "GET /uploads/images/123.PNG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:42] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:54] "GET /search?s=rrr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:54] "[36mGET /uploads/images/123.PNG HTTP/1.1[0m" 304 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/May/2022 10:35:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
